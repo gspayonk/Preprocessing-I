@@ -55,15 +55,15 @@ table {
 
 html, body {
 	height: 100%;
-	width: 950px;
-	padding: 1%;
-	font-family: 'Cutive Mono', monospace;
 	background-color: whitesmoke;
 }
 
 /*variables*/
 @nav-color: red;
 @pfont: font-family: 'Peddana', serif;
+@hfont: 'Cutive Mono', monospace;
+@bckcolor: rgb(138, 105, 105);
+@hcolor:red;
 
 /*mix-ins*/
 .border(){
@@ -72,3 +72,87 @@ html, body {
 	padding:2%;
 }
 
+h1, h2, h3, h4, h5 {
+	font-family:@hfont;
+	font-size: 2rem;
+	padding-bottom: 2%;
+}
+
+header nav{
+	display:flex;
+	justify-content: space-around;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+a {
+	font-family: @hfont;
+	text-decoration: none;
+	color: @hcolor;
+}
+.topimage {
+	display: flex;
+	justify-content: center;
+	padding: 0 5%;
+}
+
+.topsection {
+	display: flex;
+	justify-content: center;
+	padding: 5%;
+}
+
+#about {
+	padding: 5%;
+	align:left;	
+}
+
+#skills {
+	padding: 5%;
+		.polls {
+		width: 100%;
+		background-color: lightgrey;
+		}
+		.skills {
+		text-align: right;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: white; 
+		}
+		.fashion {width: 90%; background-color: green;}
+		.service {width: 80%; background-color: blue;} 
+		.design {width: 65%; background-color: red;} 
+		.textile {width: 60%; background-color:orange;}
+}
+
+#portfolio {
+	padding: 5%;
+}
+
+ul {
+	padding-left: 2%;
+}
+
+footer nav{
+	display:flex;
+	justify-content: space-around;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+.bottom{
+display: flex;
+justify-content: center;
+padding-bottom: 2%;
+}
+
+/*contact section*/
+.runwayimage {
+	width:10%;
+	height: 10%;
+}
+
+.contactform {
+	display: flex;
+	flex-direction: column;
+}
