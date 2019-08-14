@@ -152,7 +152,7 @@ header nav {
   padding-top: 3%;
   padding-bottom: 3%;
 }
-a {
+header nav a {
   font-family: 'Cutive Mono', monospace;
   text-decoration: none;
   color: red;
@@ -167,42 +167,42 @@ a {
   justify-content: center;
   padding: 5%;
 }
-#about {
+.maincontent #about {
   padding: 5%;
 }
-#skills {
+.maincontent #skills {
   padding: 5%;
 }
-#skills .polls {
+.maincontent #skills .polls {
   width: 100%;
   background-color: lightgrey;
 }
-#skills .skills {
+.maincontent #skills .skills {
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
   color: white;
 }
-#skills .fashion {
+.maincontent #skills .fashion {
   width: 90%;
   background-color: green;
 }
-#skills .service {
+.maincontent #skills .service {
   width: 80%;
   background-color: blue;
 }
-#skills .design {
+.maincontent #skills .design {
   width: 65%;
   background-color: red;
 }
-#skills .textile {
+.maincontent #skills .textile {
   width: 60%;
   background-color: orange;
 }
-#portfolio {
+.maincontent #portfolio {
   padding: 5%;
 }
-ul {
+.maincontent #portfolio ul {
   padding-left: 2%;
 }
 footer nav {
@@ -211,7 +211,7 @@ footer nav {
   padding-top: 3%;
   padding-bottom: 3%;
 }
-.bottom {
+footer nav .bottom {
   display: flex;
   justify-content: center;
   padding-bottom: 2%;
