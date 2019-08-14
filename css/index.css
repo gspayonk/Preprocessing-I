@@ -133,5 +133,11 @@ table {
 html,
 body {
   height: 100%;
-  background-color: red;
+  width: 950px;
+  padding: 1%;
+  font-family: 'Cutive Mono', monospace;
+  background-color: whitesmoke;
 }
+/*variables*/
+@pfont : font-family: 'Peddana', serif;
+/*mix-ins*/
