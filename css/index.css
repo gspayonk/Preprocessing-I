@@ -136,7 +136,6 @@ body {
   background-color: whitesmoke;
 }
 /*variables*/
-@pfont : font-family: 'Peddana', serif;
 /*mix-ins*/
 h1,
 h2,
@@ -170,7 +169,6 @@ a {
 }
 #about {
   padding: 5%;
-  align: left;
 }
 #skills {
   padding: 5%;
