@@ -67,9 +67,14 @@ html, body {
 
 /*mix-ins*/
 .border(){
-	border:2px dotted orange;
+	border:2px solid black;
 	margin:2%;
 	padding:2%;
+}
+
+.images(){
+	display: flex;
+	justify-content: center;
 }
 
 h1, h2, h3, h4, h5 {
@@ -83,16 +88,19 @@ header nav{
 	justify-content: space-around;
 	padding-top: 3%;
 	padding-bottom: 3%;
-	a {
-		font-family: @hfont;
-		text-decoration: none;
-		color: @hcolor;
+	@media( max-width: 500px ) {
+		width: 90%;
+		margin-left: 5%;	
 	}
+}
+a {
+	font-family: @hfont;
+	text-decoration: none;
+	color: @hcolor;
 }
 
 .topimage {
-	display: flex;
-	justify-content: center;
+	.images();
 	padding: 0 5%;
 }
 
@@ -100,11 +108,15 @@ header nav{
 	display: flex;
 	justify-content: center;
 	padding: 5%;
+	@media( max-width: 500px ) {
+		width: 90%;	
+	}
 }
 
 .maincontent{
 	#about {
 		padding: 5%;
+		.border();
 	}
 
 	#skills {
@@ -123,11 +135,17 @@ header nav{
 			.service {width: 80%; background-color: blue;} 
 			.design {width: 65%; background-color: red;} 
 			.textile {width: 60%; background-color:orange;}
+			.border();
 	}
 	#portfolio {
 		padding: 5%;
 		ul {
 			padding-left: 2%;
+		}
+		.border();
+		@media( max-width: 500px ) {
+			width: 90%;	
+			padding-left: 3%;
 		}
 	}
 }
@@ -142,16 +160,22 @@ footer nav{
 			justify-content: center;
 			padding-bottom: 2%;
 		}
+		@media( max-width: 500px ) {
+			width: 90%;	
+		}
 }
 
 /*contact section*/
 .runwayimage {
-	display: flex;
-	justify-content: center;
+	.images();
 }
 
 .contactform {
 	padding-top: 3%;
 	display: flex;
 	justify-content: center;
+	@media( max-width: 500px ) {
+		width: 90%;	
+		margin:5%;
+	}
 }

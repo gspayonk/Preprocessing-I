@@ -152,7 +152,13 @@ header nav {
   padding-top: 3%;
   padding-bottom: 3%;
 }
-header nav a {
+@media (max-width: 500px) {
+  header nav {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+a {
   font-family: 'Cutive Mono', monospace;
   text-decoration: none;
   color: red;
@@ -167,11 +173,22 @@ header nav a {
   justify-content: center;
   padding: 5%;
 }
+@media (max-width: 500px) {
+  .topsection {
+    width: 90%;
+  }
+}
 .maincontent #about {
   padding: 5%;
+  border: 2px solid black;
+  margin: 2%;
+  padding: 2%;
 }
 .maincontent #skills {
   padding: 5%;
+  border: 2px solid black;
+  margin: 2%;
+  padding: 2%;
 }
 .maincontent #skills .polls {
   width: 100%;
@@ -201,9 +218,18 @@ header nav a {
 }
 .maincontent #portfolio {
   padding: 5%;
+  border: 2px solid black;
+  margin: 2%;
+  padding: 2%;
 }
 .maincontent #portfolio ul {
   padding-left: 2%;
+}
+@media (max-width: 500px) {
+  .maincontent #portfolio {
+    width: 90%;
+    padding-left: 3%;
+  }
 }
 footer nav {
   display: flex;
@@ -216,6 +242,11 @@ footer nav .bottom {
   justify-content: center;
   padding-bottom: 2%;
 }
+@media (max-width: 500px) {
+  footer nav {
+    width: 90%;
+  }
+}
 /*contact section*/
 .runwayimage {
   display: flex;
@@ -225,4 +256,10 @@ footer nav .bottom {
   padding-top: 3%;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 500px) {
+  .contactform {
+    width: 90%;
+    margin: 5%;
+  }
 }
