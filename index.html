@@ -1,19 +1,99 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>My Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="css/index.css">
 
-  <!--[if lt IE 9]>
+    <title>My Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Peddana&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+<![endif]-->
 </head>
 
 <body>
-  <h1>My Resume</h1>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <section class="topimage">
+            <img src="images/textile.jpg" alt="picture of textile" />
+        </section>
+
+        <section class="topsection">
+            <h1>Miranda Priestly</h1>
+        </section>
+
+        <section class="maincontent">
+            <div id="about">
+                <h2>About</h2>
+                <p>Miranda spent ten years at French Runway before Elias-Clark transferred her to American Runway. She, her twin daughters, and her husband moved to a penthouse apartment on Fifth Avenue and 76th Street. She is the editor-in-chief of Runway,
+                    a very chic and influential fashion magazine published by the Elias-Clark company.</p>
+            </div>
+
+            <div id="skills">
+                <h2>Skills</h2>
+                <div class="polls">
+                    <p>Fashion</p>
+                    <div class="container">
+                        <div class="skills fashion">100%</div>
+                    </div>
+
+                    <p>Customer Service</p>
+                    <div class="container">
+                        <div class="skills service">0%</div>
+                    </div>
+
+                    <p>Design</p>
+                    <div class="container">
+                        <div class="skills design">100%</div>
+                    </div>
+
+                    <p>Textile</p>
+                    <div class="container">
+                        <div class="skills textile">100%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="portfolio">
+                <h2>Portfolio</h2>
+                <ul style="list-style-type:square;">
+                    <li>Assistant</li>
+                    <li>Junio Editor</li>
+                    <li>Editor-In-Chief</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="bottom">
+                <p>This is someone's resume! 2019</p>
+            </div>
+        </footer>
+    </div>
 </body>
+
 </html>
